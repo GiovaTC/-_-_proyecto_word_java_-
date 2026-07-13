@@ -1,7 +1,9 @@
 # -_-_proyecto_word_java_- :.
 # 📄 Proyecto Word Java:
 
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/605b5a6f-b8ce-45a8-9766-92d62cf31dc9" />  
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/605b5a6f-b8ce-45a8-9766-92d62cf31dc9" />    
+
+<img width="1282" height="1079" alt="image" src="https://github.com/user-attachments/assets/7cea6cbd-0dfc-4237-aa74-85f509dd4a5a" />    
 
 ```
 Proyecto desarrollado con **Java 21**, **Swing**, **Apache POI** e **IntelliJ IDEA**, que permite generar,
