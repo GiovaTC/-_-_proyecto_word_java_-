@@ -35,5 +35,30 @@ public class WordManager {
         documento.write(salida);
         salida.close();
         documento.close();
-    }   
-}
+    }
+
+    public String leerWord(String ruta)
+        throws Exception {
+
+        StringBuilder texto =
+                new StringBuilder();
+
+        FileInputStream entrada =
+                new FileInputStream(ruta);
+
+        XWPFDocument documento =
+                new XWPFDocument(entrada);
+
+        for (XWPFParagraph p :
+        documento.getParagraphs()) {
+
+            texto.append(p.getText());
+            texto.append("\n");
+        }
+
+        documento.close();
+        entrada.close();
+
+        return texto.toString();
+    }
+}   
